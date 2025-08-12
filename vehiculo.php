@@ -24,6 +24,10 @@ public function setKilometraje($km){
     }
 }
 
+public function info(){
+    return "Marca: " . $this->marca . ", Color: " . $this->color . ", Kilometraje: " . $this->kilometraje;
+}
+
 }
 
 
