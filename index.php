@@ -16,7 +16,7 @@ $coche->setKilometraje(15000);
 $moto->setKilometraje(5000);
 
 echo $coche->info() . "<br>";
-echo $moto->info() . "<br>";
+echo $moto->info() . "<br><br>";
 
 mostrarMovimiento($coche);
 mostrarMovimiento($moto);
